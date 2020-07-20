@@ -1,0 +1,210 @@
+body{
+  font-weight: bolder;
+}
+
+h1,h2,h3{
+  font-family: "Arimo";
+}
+
+/* title */
+
+#title{
+  background-color: #ff4c68;
+  padding: 7% 15% 7%;
+  color: white;
+  padding-top: 0;
+}
+
+h1{
+  font-size: 3rem;
+  line-height: 3rem;
+  font-weight: 900;
+  padding-top: 4%;
+  padding-bottom: 2%;
+
+}
+
+h2{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: black;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+h3{
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+p{
+  color: grey;
+}
+
+.n{
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+
+/* navigation */
+
+.navbar-brand{
+  font-size: 2rem;
+  margin-left: 0;
+  font-family: "Ubuntu";
+}
+
+.navbar{
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 0.9rem;
+}
+
+
+/* buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* features  */
+
+#features{
+  background-color: #fff;
+  padding: 10% 7%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.features-box{
+  padding: 5%;
+}
+
+
+.fas{
+  color:  #ff4c68;
+  padding-bottom: 5%;
+}
+
+.fas:hover{
+  color: #ff2e63;
+}
+
+.features-box>h3{
+  size:7%;
+}
+
+.colm{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+/* testimonial section */
+
+#testimonials{
+
+  background-color: #ff7e67;
+  text-align: center;
+
+}
+
+.testimonial-text{
+  color: #fff;
+}
+
+.testimonial-image{
+  width: 20%;
+  border-radius: 100%;
+  padding: 3%;
+}
+
+.carousel-item{
+  padding:7% 15%;
+}
+
+#press{
+  background-color: #ff7e67;
+  padding-bottom: 10%;
+  text-align: center;
+}
+
+em{
+  color: #fff;
+}
+
+/* pricing column */
+
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+
+
+/* call to action */
+
+#cta{
+  height: 400px;
+  background-color: #ff4c68;
+  text-align: center;
+  font-family: 'Montserrat',sans-serif;;
+}
+
+.foot-text{
+  text-align: center;
+  color: #fff;
+}
+
+.texty{
+  font-weight: 900;
+  font-size: 3rem;
+  width:870px;
+  padding-top:60px;
+  margin-left: 240px;
+  margin-bottom: 30px;
+}
+
+/* footer */
+
+#footer{
+  height: 300px;
+  text-align: center;
+}
+
+.symbolss{
+  padding-left:0.8rem;
+  padding-right: 0.8rem;
+  position: relative;
+  top:80px;
+  margin-bottom: 30px;
+}
